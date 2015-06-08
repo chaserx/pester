@@ -9,4 +9,6 @@ Pester uses whenever gem to build crontab to run pesky.sh that sends a notificat
 - adjust schedule in `config/schedule.rb` to your liking
 - adjust the full path to `pesky.sh` in `config/schedule.rb` to where it's at
 - run `whenever -w config/schedule.rb`
-- receive
+- receive pesky notifications to do things all day long
+
+![notification](./ScreenShot.png)
